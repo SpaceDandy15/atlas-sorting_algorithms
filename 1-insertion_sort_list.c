@@ -1,7 +1,8 @@
 #include "sort.h"
 
 /**
- * swap = swaps the elements of a d l list
+ * swap - swaps the elements of a d l list
+ *
  * @prev: previous el
  * @curr: current el
 */
