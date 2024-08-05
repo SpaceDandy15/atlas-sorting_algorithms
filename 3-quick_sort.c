@@ -32,8 +32,8 @@ int partition(int *array, int lo, int hi, size_t size)
 	}
 	if (i + 1 != hi)
 	{
-		tmp = array[i +1];
-		array[i + 1] = array [hi];
+		tmp = array[i + 1];
+		array[i + 1] = array[hi];
 		array[hi] = tmp;
 		print_array(array, size);
 	}
