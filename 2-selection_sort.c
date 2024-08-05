@@ -25,7 +25,7 @@ void selection_sort(int *array, size_t size)
 
 		if (min != i)
 		{
-			turn = array[i]
+			turn = array[i];
 			array[i] = array[min];
 			array[min] = turn;
 
